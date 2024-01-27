@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    background-color: #1F2028;
+    padding-top: 75px;
+    color: #fff;
+}
+
+
+
+* {
+    @apply p-0 m-0;
+}
+
+a {
+    @apply no-underline text-white
+}
+
+.container {
+    @apply w-[1000px] m-auto min-h-screen flex flex-col justify-between;
+}
+
